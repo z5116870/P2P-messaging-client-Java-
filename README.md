@@ -3,12 +3,14 @@ Refer to the report.pdf file to see the how the messaging client works works.
 
 **Usage**:
 Run server using the following usage: java Server [portNo] [userBlockDuration] [userTimeoutDuration]
+e.g. java Server 8000 10 100
 Where:
   portNo is the the port number on the localhost that you want to server to recieve messsages on
   userBlockDuration is the length of time in seconds a user can block another user for
   userTimeoutDuration is the length of time in seconds a user will automatically be logged out after not initiating any commands
   
  Run the clients using the following usage: java Client 127.0.0.1 [portNo] (If running on localhost)
+ e.g. java Client 127.0.0.1 8000
  
  **What Clients can do**:
  All registered users are stored in the credentials.txt file.
