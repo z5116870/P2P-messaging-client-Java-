@@ -1,7 +1,7 @@
 # P2P-messaging-client-Java-
 Refer to the report.pdf file to see the how the messaging client works works. 
 
-**Usage**
+**Usage**:
 Run server using the following usage: java Server [portNo] [userBlockDuration] [userTimeoutDuration]
 Where:
   portNo is the the port number on the localhost that you want to server to recieve messsages on
@@ -10,7 +10,7 @@ Where:
   
  Run the clients using the following usage: java Client 127.0.0.1 [portNo] (If running on localhost)
  
- **What Clients can do**
+ **What Clients can do**:
  All registered users are stored in the credentials.txt file.
  Messages sent to users that arent currently online will be stored, and the relevant user will be notified upon logging in, with a "You have pending messages!" notification. 
  There can be any number of clients.
